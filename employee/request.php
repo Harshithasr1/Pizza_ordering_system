@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>	
+
+	<style>
+	body{			
+			background-image: url(../customer/partials/image5.jpg);		
+			background-size: cover;
+			background-repeat: no-repeat;
+			position: absolute;
+		}
+
+	label {
+	display: inline-block;
+	width: 150px;
+	text-align: right;
+	margin-left: 30%;	
+	}
+	
+	button{      
+    margin-left:41.6%;	
+	}
+
+    button1{
+        display: flex;
+        height: 1vh;
+        align-items: flex-start;
+        background-color: black;
+        color: aquamarine;
+        padding: 12px;
+        border-radius: 10px;
+        position: absolute;
+        margin-left: 3em;
+        cursor: pointer;    
+    }
+
+    </style>
+
+   <meta charset="UTF-8">     
+    <h1 style = "text-align: center; color:red; font-size:350%; font-family:chiller;">PIZZERIA</h1>
+    <link rel="stylesheet" href="../css/customer.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>	
+	
+    <div class="wrapper">
+    
+    <button1 type="submit" onclick="window.location.href = '../admin/back.php';">&laquo; Back to login</button1>
+    <br>
+        <p style="color:black; font-size:160%; font-family:pristina; text-align: center">Employee Management</p>
+        <br>
+        <p style="color:black; font-size:140%; font-family:verdona; text-align: center">Item Request Details</p>
+		
+		<label>Employee Id: </label>
+
+        <input type="varchar" name="employeeid"><br><br>
+		
+		<label>Ingredient Id: </label>
+		
+        <input type="varchar" name="ingredientid"><br><br>		
+		
+		<label>Product Id: </label>
+
+        <input type="varchar" name="productid"><br><br>
+		
+		<label>Item Status: </label>
+
+        <input type="varchar" name="itemstatus"><br><br>
+        
+       <br>
+       <button style="background-color:powderblue; border-color:blue; color:black; margin-left:47%" type="submit">Add new item</button><br><br>
+       <br><br>
+       <br><br><br>
+    </div>
+
+    <div class = "footer">		
+	<p>Copyright &copy;2021 All rights reserved, Pizzeria.</p>		
+</div>
+
+</body>
+</html>

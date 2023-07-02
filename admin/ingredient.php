@@ -73,7 +73,6 @@ if($_POST){
 			<option>Jalapenos.............$0.82</option>
 			<option>Pineapple..............$1.5</option>
 		</select><br><br>	
-		<input type="submit"/>
 		
 		<label for="category">Customcuts: </label>
 		<select name="customcuts">
@@ -83,7 +82,6 @@ if($_POST){
 			<option>Ground</option>
 			<option>Sliced</option>
 		</select><br><br>	
-		<input type="submit"/>
 		
 		<label>Price: </label>
         <input type="varchar" name="price"><br><br>
